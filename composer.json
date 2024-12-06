@@ -1,0 +1,36 @@
+{
+  "name": "lectwolf/filter",
+  "description": "Filters API for Dream Resources.",
+  "type": "library",
+  "require": {
+    "illuminate/contracts": "^6 || ^7 || ^8 || ^9 || ^10 || ^11",
+    "illuminate/support": "^6 || ^7 || ^8 || ^9 || ^10 || ^11"
+  },
+  "require-dev": {
+    "illuminate/container": "^6 || ^7 || ^8 || ^9 || ^10 || ^11",
+    "phpunit/phpunit": "~9.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "LectWolf\\": "src/LectWolf"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LectWolf\\FilterServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "冷枫小乐",
+      "email": "2242299685@qq.com"
+    }
+  ],
+  "minimum-stability": "stable"
+}
